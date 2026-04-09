@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.test.integration",
+    "version": "4.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.52"
+          }
+        },
+        {
+          "group": "org.zeroturnaround",
+          "module": "zt-exec",
+          "version": {
+            "requires": "1.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.test.integration-4.0.7.jar",
+          "url": "com.liferay.gradle.plugins.test.integration-4.0.7.jar",
+          "size": 79584,
+          "sha512": "ad5206f4b66b6b358c1b631701727d38ceb657b263a7c60e40367b1a6178c97427c767781c9f3308f5ae4ae40110f84ee2dadd40e141fc316dc4b0557c2dd861",
+          "sha256": "9e497c73d7764241600d9a5be094c6aa03d683fa21357784a76a123277261ac1",
+          "sha1": "046ba675eda865ea38048ae507f01e648223956f",
+          "md5": "3f88a4e467e20de055a36de0ec760946"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.52"
+          }
+        },
+        {
+          "group": "org.zeroturnaround",
+          "module": "zt-exec",
+          "version": {
+            "requires": "1.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.test.integration-4.0.7.jar",
+          "url": "com.liferay.gradle.plugins.test.integration-4.0.7.jar",
+          "size": 79584,
+          "sha512": "ad5206f4b66b6b358c1b631701727d38ceb657b263a7c60e40367b1a6178c97427c767781c9f3308f5ae4ae40110f84ee2dadd40e141fc316dc4b0557c2dd861",
+          "sha256": "9e497c73d7764241600d9a5be094c6aa03d683fa21357784a76a123277261ac1",
+          "sha1": "046ba675eda865ea38048ae507f01e648223956f",
+          "md5": "3f88a4e467e20de055a36de0ec760946"
+        }
+      ]
+    }
+  ]
+}

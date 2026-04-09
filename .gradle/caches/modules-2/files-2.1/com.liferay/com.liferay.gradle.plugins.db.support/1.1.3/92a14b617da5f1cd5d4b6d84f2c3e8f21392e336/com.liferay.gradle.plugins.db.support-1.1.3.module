@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.db.support",
+    "version": "1.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.52"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.db.support-1.1.3.jar",
+          "url": "com.liferay.gradle.plugins.db.support-1.1.3.jar",
+          "size": 13281,
+          "sha512": "27daa848ce2d3b60183281d2d265a51cecb69dca61c554105070449cb110842609afd7148191b64b4ee21f7e0851c2d9be235a2e616995c22d6dc08e0f5510d2",
+          "sha256": "396e9547c45074cccba2c99f57aa576716a7c468504229cbc8ceb1740b200268",
+          "sha1": "d58e1ef6fc61408cb0b016431a075b6ae14d59e5",
+          "md5": "b5ccf198c7faeed5f7210102e0c442b8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.52"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.db.support-1.1.3.jar",
+          "url": "com.liferay.gradle.plugins.db.support-1.1.3.jar",
+          "size": 13281,
+          "sha512": "27daa848ce2d3b60183281d2d265a51cecb69dca61c554105070449cb110842609afd7148191b64b4ee21f7e0851c2d9be235a2e616995c22d6dc08e0f5510d2",
+          "sha256": "396e9547c45074cccba2c99f57aa576716a7c468504229cbc8ceb1740b200268",
+          "sha1": "d58e1ef6fc61408cb0b016431a075b6ae14d59e5",
+          "md5": "b5ccf198c7faeed5f7210102e0c442b8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.cache",
+    "version": "1.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.52"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.cache-1.0.21.jar",
+          "url": "com.liferay.gradle.plugins.cache-1.0.21.jar",
+          "size": 28027,
+          "sha512": "c5de51d4cd8f429ab42f4d35326ed007cc0a6a62a64c41644fec1a10ea6cc46db2398e19a6cc0bb0079a6d71e1ad7a780522b03a08dfec55389ea039229bc4ad",
+          "sha256": "4882f69d5163cc53e71795db1226895873b6acecee251d66ce69f396d0417af4",
+          "sha1": "d4b4dc8a3ca600ab159a01d1959d7d7ce1207aa1",
+          "md5": "20802ab11bd3a3a5339ac641e7ef1922"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.52"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.cache-1.0.21.jar",
+          "url": "com.liferay.gradle.plugins.cache-1.0.21.jar",
+          "size": 28027,
+          "sha512": "c5de51d4cd8f429ab42f4d35326ed007cc0a6a62a64c41644fec1a10ea6cc46db2398e19a6cc0bb0079a6d71e1ad7a780522b03a08dfec55389ea039229bc4ad",
+          "sha256": "4882f69d5163cc53e71795db1226895873b6acecee251d66ce69f396d0417af4",
+          "sha1": "d4b4dc8a3ca600ab159a01d1959d7d7ce1207aa1",
+          "md5": "20802ab11bd3a3a5339ac641e7ef1922"
+        }
+      ]
+    }
+  ]
+}

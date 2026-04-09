@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.gradle.plugins.dependency.checker",
+    "version": "1.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.52"
+          }
+        },
+        {
+          "group": "net.jodah",
+          "module": "expiringmap",
+          "version": {
+            "requires": "0.5.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.dependency.checker-1.0.7.jar",
+          "url": "com.liferay.gradle.plugins.dependency.checker-1.0.7.jar",
+          "size": 18517,
+          "sha512": "9fde00227703ca459125323dd096d7ff808e558afdd7033c5ea59165645cd4948aee6545f3886aa64fbd40e4be908c091ebded673e8d2284d68ce2df701aaa80",
+          "sha256": "ab847e1653790fa05a2e322edfff8d9817d74e3a28697db2547f27530056e601",
+          "sha1": "759e78f69db406517c0797dde3b7fda48274e61e",
+          "md5": "8262377de214e9f0d638398bb52de82c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.gradle.util",
+          "version": {
+            "requires": "1.0.52"
+          }
+        },
+        {
+          "group": "net.jodah",
+          "module": "expiringmap",
+          "version": {
+            "requires": "0.5.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.gradle.plugins.dependency.checker-1.0.7.jar",
+          "url": "com.liferay.gradle.plugins.dependency.checker-1.0.7.jar",
+          "size": 18517,
+          "sha512": "9fde00227703ca459125323dd096d7ff808e558afdd7033c5ea59165645cd4948aee6545f3886aa64fbd40e4be908c091ebded673e8d2284d68ce2df701aaa80",
+          "sha256": "ab847e1653790fa05a2e322edfff8d9817d74e3a28697db2547f27530056e601",
+          "sha1": "759e78f69db406517c0797dde3b7fda48274e61e",
+          "md5": "8262377de214e9f0d638398bb52de82c"
+        }
+      ]
+    }
+  ]
+}
