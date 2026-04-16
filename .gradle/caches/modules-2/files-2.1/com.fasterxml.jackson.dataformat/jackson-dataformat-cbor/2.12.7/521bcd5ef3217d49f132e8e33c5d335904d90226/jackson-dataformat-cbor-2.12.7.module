@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.dataformat",
+    "module": "jackson-dataformat-cbor",
+    "version": "2.12.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.12.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.12.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.12.7"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-dataformat-cbor-2.12.7.jar",
+          "url": "jackson-dataformat-cbor-2.12.7.jar",
+          "size": 60880,
+          "sha512": "3741b740aa7944e122317dfe2e06811d3dd0f584f0bc5ae157cd4341c481ae2f488b67fc12305faf446905285c37f3f383fba1741936efecdcd8185c6e348067",
+          "sha256": "41a733ceb6a26795ab7c9b5cb5f8f8342e6b2d3a92b75bf51298e1525763b147",
+          "sha1": "f083b2e38904afaf2223882cba39d6f159ad6025",
+          "md5": "f43ececeafda37610e8eaa9191a3ea49"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.12.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.12.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.12.7"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-dataformat-cbor-2.12.7.jar",
+          "url": "jackson-dataformat-cbor-2.12.7.jar",
+          "size": 60880,
+          "sha512": "3741b740aa7944e122317dfe2e06811d3dd0f584f0bc5ae157cd4341c481ae2f488b67fc12305faf446905285c37f3f383fba1741936efecdcd8185c6e348067",
+          "sha256": "41a733ceb6a26795ab7c9b5cb5f8f8342e6b2d3a92b75bf51298e1525763b147",
+          "sha1": "f083b2e38904afaf2223882cba39d6f159ad6025",
+          "md5": "f43ececeafda37610e8eaa9191a3ea49"
+        }
+      ]
+    }
+  ]
+}
