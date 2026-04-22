@@ -1,0 +1,330 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "com.liferay.jenkins.results.parser",
+    "version": "1.0.1794",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-core",
+          "version": {
+            "requires": "1.12.719"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-ec2",
+          "version": {
+            "requires": "1.12.262"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-rds",
+          "version": {
+            "requires": "1.12.262"
+          }
+        },
+        {
+          "group": "com.atlassian.jira",
+          "module": "jira-rest-java-client-app",
+          "version": {
+            "requires": "5.2.4"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-storage",
+          "version": {
+            "requires": "1.113.16"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.poshi.core",
+          "version": {
+            "requires": "1.0.159"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "org.apache.activemq.client",
+          "version": {
+            "requires": "5.16.7.JAKARTA-LIFERAY-PATCHED-1"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "org.apache.geronimo.specs.jms",
+          "version": {
+            "requires": "1.1.1.JAKARTA-LIFERAY-PATCHED-1"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.14"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.26.0"
+          }
+        },
+        {
+          "group": "org.dom4j",
+          "module": "dom4j",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20231013"
+          }
+        },
+        {
+          "group": "org.w3c",
+          "module": "dom",
+          "version": {
+            "requires": "2.3.0-jaxb-1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.jenkins.results.parser-1.0.1794.jar",
+          "url": "com.liferay.jenkins.results.parser-1.0.1794.jar",
+          "size": 1867022,
+          "sha512": "60dba04fd1697112506c0ee58fe9292f2fc5a32a39cbfef93309f4cfb10da57ff533005ee9e8b22603d4c41baf52a543a0975d0bcc5b6b3ef9ebb6ff41525e5a",
+          "sha256": "7520e14c0e620a56d6ded2ac70912088bd7f373068a316b37fc60142808c9160",
+          "sha1": "ab76789f0ce7561b6e6837b050cdaeabeeb4cf35",
+          "md5": "733fbeae87f3863ce67e60bff564545a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-core",
+          "version": {
+            "requires": "1.12.719"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-ec2",
+          "version": {
+            "requires": "1.12.262"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-rds",
+          "version": {
+            "requires": "1.12.262"
+          }
+        },
+        {
+          "group": "com.atlassian.jira",
+          "module": "jira-rest-java-client-app",
+          "version": {
+            "requires": "5.2.4"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-storage",
+          "version": {
+            "requires": "1.113.16"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "com.liferay.poshi.core",
+          "version": {
+            "requires": "1.0.159"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "org.apache.activemq.client",
+          "version": {
+            "requires": "5.16.7.JAKARTA-LIFERAY-PATCHED-1"
+          }
+        },
+        {
+          "group": "com.liferay",
+          "module": "org.apache.geronimo.specs.jms",
+          "version": {
+            "requires": "1.1.1.JAKARTA-LIFERAY-PATCHED-1"
+          }
+        },
+        {
+          "group": "com.sun.mail",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.14"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.26.0"
+          }
+        },
+        {
+          "group": "org.dom4j",
+          "module": "dom4j",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20231013"
+          }
+        },
+        {
+          "group": "org.w3c",
+          "module": "dom",
+          "version": {
+            "requires": "2.3.0-jaxb-1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "com.liferay.jenkins.results.parser-1.0.1794.jar",
+          "url": "com.liferay.jenkins.results.parser-1.0.1794.jar",
+          "size": 1867022,
+          "sha512": "60dba04fd1697112506c0ee58fe9292f2fc5a32a39cbfef93309f4cfb10da57ff533005ee9e8b22603d4c41baf52a543a0975d0bcc5b6b3ef9ebb6ff41525e5a",
+          "sha256": "7520e14c0e620a56d6ded2ac70912088bd7f373068a316b37fc60142808c9160",
+          "sha1": "ab76789f0ce7561b6e6837b050cdaeabeeb4cf35",
+          "md5": "733fbeae87f3863ce67e60bff564545a"
+        }
+      ]
+    }
+  ]
+}
