@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liferay",
+    "module": "org.apache.commons.logging",
+    "version": "1.2.LIFERAY-PATCHED-4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-4.jar",
+          "url": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-4.jar",
+          "size": 62238,
+          "sha512": "bd1822ba08407b77b3140083002ed666f8d9c0779bd4ba266e8fac29167c6a6959fcdbf380166eb5b612e2e43254bdc10122356d4e53195ad83251d393f2f50d",
+          "sha256": "7f825f80d229c86a7efdaa71926423074ef250ebb14c9d055143043bf3de8885",
+          "sha1": "e37f955eccf3dda61ee70fb943d3946068e22353",
+          "md5": "0a8c2b302b0bba4d00f6085513e63068"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-4.jar",
+          "url": "org.apache.commons.logging-1.2.LIFERAY-PATCHED-4.jar",
+          "size": 62238,
+          "sha512": "bd1822ba08407b77b3140083002ed666f8d9c0779bd4ba266e8fac29167c6a6959fcdbf380166eb5b612e2e43254bdc10122356d4e53195ad83251d393f2f50d",
+          "sha256": "7f825f80d229c86a7efdaa71926423074ef250ebb14c9d055143043bf3de8885",
+          "sha1": "e37f955eccf3dda61ee70fb943d3946068e22353",
+          "md5": "0a8c2b302b0bba4d00f6085513e63068"
+        }
+      ]
+    }
+  ]
+}
