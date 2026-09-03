@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.drewnoakes</groupId>
+  <artifactId>metadata-extractor</artifactId>
+  <version>2.20.0</version>
+  <name>com.drewnoakes:metadata-extractor</name>
+  <description>Java library for extracting EXIF, IPTC, XMP, ICC and other metadata from image and video files.</description>
+  <url>https://drewnoakes.com/code/exif/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>drewnoakes</id>
+      <name>Drew Noakes</name>
+      <url>https://drewnoakes.com</url>
+    </developer>
+  </developers>
+  <mailingLists>
+    <mailingList>
+      <name>Announce mailing list</name>
+      <archive>http://groups.google.com/group/metadata-extractor-announce</archive>
+    </mailingList>
+    <mailingList>
+      <name>Development mailing list</name>
+      <archive>http://groups.google.com/group/metadata-extractor-dev</archive>
+    </mailingList>
+  </mailingLists>
+  <scm>
+    <connection>scm:git:git://github.com/drewnoakes/metadata-extractor.git</connection>
+    <developerConnection>scm:git:git@github.com:drewnoakes/metadata-extractor.git</developerConnection>
+    <url>https://github.com/drewnoakes/metadata-extractor</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/drewnoakes/metadata-extractor/issues</url>
+  </issueManagement>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>central</id>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.adobe.xmp</groupId>
+      <artifactId>xmpcore</artifactId>
+      <version>6.1.11</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
+        <version>1.6.8</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
